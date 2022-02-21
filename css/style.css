@@ -44,12 +44,38 @@ body {
   margin-bottom: 20px;
 }
 
-.white {
-  color: white;
-  display: flex;
+.text {
   justify-content: center;
   align-items: center;
   font-size: 12px;
 }
+.white {
+  color: white;
+  display: flex;
+}
+/* alignment */
 
-/* content */
+.row-center {
+  justify-content: center;
+}
+
+.row-end {
+  justify-content: flex-end;
+}
+
+/* justify */
+.al-center {
+  align-self: center;
+}
+
+.al-bottom {
+  align-self: flex-end;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.between {
+  justify-content: space-between;
+}
